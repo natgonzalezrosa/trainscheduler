@@ -20,18 +20,24 @@ body {
 .card-heading {
     background-color: #70202d;;
     color: #ffffff;
+    border-top-left-radius:6px;
+    border-top-right-radius: 6px;
 }
 
 .card-title {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     text-align: center;
+    font-weight: 800;
 }
 
 .card-body {
-    background-color: #f5f4cc;
+    background-color: #f8f7da;
     border-width: 1px;
     border-style: solid;
     border-color: #70202d;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 #lastrow {
@@ -54,4 +60,23 @@ h1 {
 
 tr, label {
     color: #70202d;
+}
+
+tbody tr:nth-child(even){
+    color: #8b373c;
+    background-color: #fdfdf7;
+}
+
+tbody tr:hover{
+    background-color: #8b373c;
+    color: #ffffff;
+}
+
+#train-schedule {
+    padding: 0px;
+}
+
+.form-group {
+    padding-left: 10px;
+    padding-right: 10px;
 }
