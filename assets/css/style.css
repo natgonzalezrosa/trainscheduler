@@ -1,0 +1,57 @@
+body {
+    background-image: url("../images/cream_pixels.png");
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#train-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.jumbotron {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    background-color: #f5f4cc;
+}
+
+.card-heading {
+    background-color: #70202d;;
+    color: #ffffff;
+}
+
+.card-title {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #f5f4cc;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #70202d;
+}
+
+#lastrow {
+    margin-bottom: 25px;
+}
+
+h1, h3 {
+    color: #70202d;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#add-user {
+    background-color: #70202d;
+    color: #ffffff;
+}
+
+tr, label {
+    color: #70202d;
+}
