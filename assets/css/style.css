@@ -1,9 +1,11 @@
+/* Body */
 body {
     background-image: url("../images/cream_pixels.png");
     background-repeat: repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Train Image in the Jumbrotron header */
 #train-image {
     display: block;
     margin-left: auto;
@@ -11,12 +13,14 @@ body {
     width: 400px;
 }
 
+/* Jumbotron */
 .jumbotron {
     padding-top: 25px;
     padding-bottom: 5px;
     background-color: #f5f4cc;
 }
 
+/* Heading for both boxes */
 .card-heading {
     background-color: #70202d;;
     color: #ffffff;
@@ -24,6 +28,7 @@ body {
     border-top-right-radius: 6px;
 }
 
+/* Changes style of just the title of the boxes */
 .card-title {
     padding-top: 10px;
     padding-bottom: 5px;
@@ -31,6 +36,7 @@ body {
     font-weight: 800;
 }
 
+/* Changes borders of both card bodies */
 .card-body {
     background-color: #f8f7da;
     border-width: 1px;
@@ -40,42 +46,51 @@ body {
     border-bottom-right-radius: 6px;
 }
 
+/* Add ID to last table to add room at the bottom margin */
 #lastrow {
     margin-bottom: 25px;
 }
 
+/* H1 and H3 */
 h1, h3 {
     color: #70202d;
 }
 
+/* H1 only */
 h1 {
     font-size: 50px;
     font-weight: 900;
 }
 
+/* Submit button */
 #add-train {
     background-color: #70202d;
     color: #ffffff;
 }
 
+/* Changes font within the label of each table row */
 tr, label {
     color: #70202d;
 }
 
+/* Changes style of every even row within the table */
 tbody tr:nth-child(even){
     color: #8b373c;
     background-color: #fdfdf7;
 }
 
+/* Changes background color of row within table when user hovers over it */
 tbody tr:hover{
     background-color: #8b373c;
     color: #ffffff;
 }
 
+/* Changed padding of the train schedule table */
 #train-schedule {
     padding: 0px;
 }
 
+/* Changed padding of the form within the box */
 .form-group {
     padding-left: 10px;
     padding-right: 10px;
